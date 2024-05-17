@@ -15,11 +15,17 @@ Summary ,這個專案展示了如何使用 Go 語言開發一個能夠與 MQTT �
 
 
 
-This is a project developed using the Go programming language.
-The project aims to implement communication with the MQTT (Message Queuing Telemetry Transport) and Modbus TCP protocols.
-MQTT is a lightweight publish/subscribe messaging protocol commonly used in the Internet of Things (IoT) and machine-to-machine (M2M) communications. It can provide efficient data transfer in low-bandwidth and unreliable network environments.
+This is a project developed using the Go programming language. 
+The project aims to implement communication with the MQTT (Message Queuing Telemetry Transport) and Modbus TCP protocols. 
+
+MQTT is a lightweight publish/subscribe messaging protocol commonly used in the Internet of Things (IoT) and machine-to-machine (M2M) communications. It can provide efficient data transfer in low-bandwidth and unreliable network environments. 
+
 Modbus TCP is the TCP/IP version of the Modbus application layer messaging protocol. It is widely used in industrial automation systems for device monitoring and control. Through Modbus TCP, it is possible to read and write memory blocks of connected devices, enabling remote device operation and data acquisition.
+ 
 In this project, we utilize multiple files and code related to different battery capacities, such as 15kW, 30kW, and 60kW.
+
 These files contain the logic for communicating with the battery management system, using the MQTT protocol to transmit battery status and data, while also using the Modbus TCP protocol to read and control related industrial equipment.
+
 Additionally, the project includes other files such as go.mod (Go module definition file), go.sum (Go module checksum file), and mqtt_mysql.go (possibly used for storing data in a MySQL database).
+
 In summary, this project demonstrates how to develop an application using the Go language that can interact with the MQTT and Modbus TCP protocols, applicable in industrial automation and the Internet of Things domains, enabling device monitoring, control, and data collection functionalities.
